@@ -6,16 +6,19 @@
       name="text"
       id="text"
       placeholder="Add Task Text"
+      required
       [(ngModel)]="text"
     />
   </div>
   <div class="form-control">
     <label for="day">Day & Time</label>
     <input
-      type="text"
+      type="date"
       name="day"
       id="day"
       placeholder="Add Day & Time"
+      [value]="currentDate"
+      required
       [(ngModel)]="day"
     />
   </div>
