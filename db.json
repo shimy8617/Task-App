@@ -10,13 +10,31 @@
       "id": 4,
       "text": "Learn something new",
       "day": "1 day of the week",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 5,
       "text": "Read something like an article, a chapter of a book",
       "day": "Every week",
-      "reminder": true
+      "reminder": false
+    },
+    {
+      "text": "Run",
+      "day": "Today",
+      "reminder": false,
+      "id": 6
+    },
+    {
+      "text": "Go to work",
+      "day": "Everyday",
+      "reminder": true,
+      "id": 7
+    },
+    {
+      "text": "Eat healthy",
+      "day": "Everyday",
+      "reminder": true,
+      "id": 8
     }
   ]
 }
