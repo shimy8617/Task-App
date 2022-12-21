@@ -23,6 +23,7 @@ export class TasksItemComponent implements OnInit {
   }
 
   onDelete(task: Task){
+    alert("Task deleted!")
     this.onDeleteTask.emit(task);
   }
 
